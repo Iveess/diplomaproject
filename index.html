@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming News</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <script src="scripts.js"></script>
+    <header class="main-header">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Пошук..." oninput="searchArticles()">
+            <span class="search-icon">🔍</span>
+            <div id="searchResults" class="search-results"></div>
+          </div>
+        <div class="container">
+            <h1 class="site-title">Critical Hit</h1>
+            <h3 class="site-title">"Точне попадання у світ геймінгу"</h3>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="pages/reviews.html">Огляди</a></li>
+                    <li><a href="pages/news.html">Новини</a></li>
+                    <li><a href="pages/contact.html">Контакти</a></li>
+                    <li><a href="pages/faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="hero">
+            <div class="container">
+                <h2>Останні новини в ігровій індустрії</h2>
+                <p>Будьте в курсі останніх новин, оглядів і посібників для ваших улюблених ігор.</p>
+            </div>
+
+            <section class="tournament-section">
+                <div class="container">
+                    <h2 class="section-title">🎮 Турніри — Червень 2025</h2>
+                    <div class="table-wrapper">
+                        <table class="tournament-table">
+                            <thead>
+                                <tr>
+                                    <th>Назва турніру</th>
+                                    <th>Гра</th>
+                                    <th>Дати</th>
+                                    <th>Локація</th>
+                                    <th>Призовий фонд</th>
+                                    <th>Посилання</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>VALORANT Masters Toronto 2025</td>
+                                    <td>Valorant</td>
+                                    <td>7–22 червня</td>
+                                    <td>Торонто, Канада</td>
+                                    <td>Уточнюється</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/2025_Valorant_Champions_Tour%3A_Toronto_Masters" target="_blank">Деталі</a></td>
+                                </tr>
+                                <tr>
+                                    <td>BLAST.tv Austin Major 2025</td>
+                                    <td>Counter-Strike 2</td>
+                                    <td>9–22 червня</td>
+                                    <td>Остін, США</td>
+                                    <td>$1.25 млн</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/Blast_Austin_Major_2025" target="_blank">Деталі</a></td>
+                                </tr>
+                                <tr>
+                                    <td>RLCS 2025 – Major 2</td>
+                                    <td>Rocket League</td>
+                                    <td>26–29 червня</td>
+                                    <td>США</td>
+                                    <td>$350,000</td>
+                                    <td><a href="https://www.outlookindia.com/xhub/e-gaming/esports-tournaments-calendar-2025-full-monthly-schedule-of-major-events" target="_blank">Деталі</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Mid-Season Invitational 2025</td>
+                                    <td>League of Legends</td>
+                                    <td>27 червня – 12 липня</td>
+                                    <td>Ванкувер, Канада</td>
+                                    <td>Уточнюється</td>
+                                    <td><a href="https://en.wikipedia.org/wiki/2025_Mid-Season_Invitational" target="_blank">Деталі</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>        
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <h2>Новини</h2>
+                <div class="news-grid">
+                    <article class="news-item">
+                        <img src="https://gameverse.com.ua/uploads/articles/2024/12/24/de.jpg.webp" alt="Game 1">
+                        <h3>Розробники Dying Light The Beast змінили механіку за відгуками гравців</h3>
+                        <p>Таймон Смектала, директор франшизи Dying Light, у бесіді з PCGamesN поділився, як думка гравців вплинула 
+                            на розробку Dying Light, особливо в аспекті механіки водіння, яка буде представлена в Dying Light The Beast.</p>
+                        <a href="pages/news/dl.html">Read more</a>
+                    </article>
+                    <article class="news-item">
+                        <img src="https://gameverse.com.ua/uploads/articles/2024/12/24/wit.jpg.webp" alt="Game 2">
+                        <h3>Дослідження показують, що відкриті світи в іграх покращують психічний стан</h3>
+                        <p>У нещодавньому дослідженні вчені з'ясували, що ігри з відкритим світом здатні помітно 
+                            покращувати психоемоційний стан гравців, сприяючи їхньому розслабленню.</p>
+                        <a href="pages/news/wit.html">Read more</a>
+                    </article>
+                    <article class="news-item">
+                        <img src="https://gameverse.com.ua/uploads/articles/2024/12/23/s.jpg.webp" alt="Game 3">
+                        <h3>Анонсовано психологічний хорор Shiver</h3>
+                        <p>Незалежна команда Team Nocebo презентувала свою першу гру під назвою Shiver. </p>
+                        <a href="pages/news/shiver.html">Read more</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <section class="reviews">
+            <div class="container">
+                <h2>Огляди</h2>
+                <div class="reviews-grid">
+                    <article class="review-item">
+                        <h3>Огляд Manor Lords</h3>
+                        <p>Що вийде, якщо поєднати українську гру Острів з частинкою Total War? Вийде Manor Lords.</p>
+                        <a href="pages/reviews/ml.html" class="animated-button">Перейти до статті</a>
+                    </article>
+                    <article class="review-item">
+                        <h3>Hogwarts Legacy огляд українською</h3>
+                        <p>Огляд Hogwarts Legacy українською. Чи вдалось грі відтворити магічний всесвіт Гаррі Поттера, 
+                            давши можливість гравцями поринути у цей чарівний світ? В цій статті і дізнаємось.</p>
+                        <a href="pages/reviews/hl.html" class="animated-button">Перейти до статті</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 Gaming News. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
