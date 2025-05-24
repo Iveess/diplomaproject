@@ -10,11 +10,6 @@
 <body>
     <script src="scripts.js"></script>
     <header class="main-header">
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Пошук..." oninput="searchArticles()">
-            <span class="search-icon">🔍</span>
-            <div id="searchResults" class="search-results"></div>
-          </div>
         <div class="container">
             <h1 class="site-title">Critical Hit</h1>
             <h3 class="site-title">"Точне попадання у світ геймінгу"</h3>
@@ -28,6 +23,12 @@
                 </ul>
             </nav>
         </div>
+        <div class="search-bar-wrapper">
+      <input type="text" id="searchInput" placeholder="Пошук..." oninput="searchArticles()">
+      <span class="search-icon">🔍</span>
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
     </header>
 
     <main class="content">
